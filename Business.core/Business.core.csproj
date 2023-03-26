@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Intefaces\" />
+    <None Remove="Entitiy\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Intefaces\" />
+    <Folder Include="Entitiy\" />
+  </ItemGroup>
+</Project>
