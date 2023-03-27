@@ -47,7 +47,7 @@ public class Departament : IEntity
 	{
 		if (string.IsNullOrEmpty(newName) || employeelimit <= 0)
 		{
-			throw new ArgumentException("Invalid departamen information");
+			throw new ArgumentException("Invalid departament information");
 		}
 		Name = newName;
 		Employeelimit = employeelimit;

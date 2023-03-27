@@ -149,9 +149,6 @@ while (true)
                 foreach (var departamenttype in Enum.GetValues(typeof(DepartamentType)))
                 {
                     Console.WriteLine((int)departamenttype + "-" + departamenttype);
-
-                   
-
                 }
 
                 string? resType = Console.ReadLine();
@@ -267,7 +264,7 @@ while (true)
                 {
                     Console.WriteLine("Depertament name is cannot be null");
 
-                    goto case 6;
+                    goto case 8;
                 }
                 else
                 {
@@ -287,7 +284,7 @@ while (true)
                         }
                         else
                         {
-                            goto case 6;
+                            goto case 8;
                         }
                         
                     }
